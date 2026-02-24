@@ -1,6 +1,0 @@
-  (i)Select * from FACULTY natural join COURSES where Salary<12000; 
-                                    OR 
-     Select * from FACULTY, COURSES where Salary <12000 and facuty.f_id=courses.f_id; 
- ii)Select * from courses where fees between 20000 and 50000; 
- iii)Update courses set fees=fees+500 where CName like '%Computer%'; 
- iv)(A)Select FName, LName from faculty natural join courses where Came="System Design";  
